@@ -67,6 +67,10 @@
     <Reference Include="nunit.framework, Version=2.5.7.10213, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <HintPath>..\..\lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Proteus.Utility.UnitTest, Version=1.2.7.36208, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Proteus.Utility.UnitTest.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -132,10 +136,6 @@
     <ProjectReference Include="..\..\src\Proteus.Domain.Foundation\Proteus.Domain.Foundation.csproj">
       <Project>{13E86F35-1A5F-4995-A282-037516F14C86}</Project>
       <Name>Proteus.Domain.Foundation</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\src\Proteus.Utility.UnitTest\Proteus.Utility.UnitTest.csproj">
-      <Project>{B64E4C8C-D622-42E9-AD6F-244581F33D82}</Project>
-      <Name>Proteus.Utility.UnitTest</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
