@@ -52,13 +52,13 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NDbUnit.Core, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="NDbUnit.Core, Version=1.6.8.36615, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\NDbUnit.Core.dll</HintPath>
+      <HintPath>..\..\packages\NDbUnit.Core.1.6.8.0\lib\Net35\NDbUnit.Core.dll</HintPath>
     </Reference>
-    <Reference Include="NDbUnit.SqlClient, Version=1.5.0.18984, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="NDbUnit.SqlClient, Version=1.6.8.36615, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\NDbUnit.SqlClient.dll</HintPath>
+      <HintPath>..\..\packages\NDbUnit.SqlClient.1.6.8.0\lib\Net35\NDbUnit.SqlClient.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate, Version=2.1.0.1001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
