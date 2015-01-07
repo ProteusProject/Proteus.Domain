@@ -31,7 +31,7 @@
   </Target>
   
   <!-- default 'Build' target doesn't need to invoke Test target b/c CI server will auto-discover test assemblies on run -->  
-  <Target Name="Build" DependsOnTargets="BuildSolution;Test;ApiReferenceDocs" />
+  <Target Name="Build" DependsOnTargets="BuildSolution;ApiReferenceDocs" />
  
   <Target Name="BuildSolution">
     <MSBuild Projects="$(SolutionFileName)" />
